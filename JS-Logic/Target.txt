@@ -1,0 +1,5 @@
+1.foreach
+2.map
+3.filter
+4.destruturing
+5.spread and rest

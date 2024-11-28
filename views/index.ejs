@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body class="container">
+    <header>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <h1>Welcome to My Website</h1>
+            <p>This is the home page.</p>
+            <!-- Display dynamic data if needed -->
+            <h2>Variable</h2>
+            <p><%= tagline %></p>
+            <!-- Loop over data if needed -->
+            <% if (mascots) { %>
+                <h2>Mascots</h2>
+                <ul>
+                    <% mascots.forEach(mascot => { %>
+                        <li><%= mascot.name %> from <%= mascot.organization %> born in <%= mascot.birth_year %></li>
+                    <% }); %>
+                </ul>
+            <% } %>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
