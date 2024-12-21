@@ -1,8 +1,17 @@
 {
+  "name": "testcase2",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
-    "express": "^4.21.1"
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^2.0.14"
   }
 }
